@@ -1,4 +1,4 @@
- /*html,
+html,
 body,
 div,
 span,
@@ -90,7 +90,7 @@ video {
 
 /* HTML5 display-role reset for older browsers */
 
-  /*article,
+article,
 aside,
 details,
 figcaption,
@@ -143,14 +143,13 @@ body {
     font-family: 'Roboto Mono', sans-serif;
     font-size: 1.5rem;
 }
-.img-header {
-    border-radius: 10px;
-}
+
 h1 {
     text-align: center;
     font-family: 'Chelsea Market', sans-serif;
     font-size: 3rem;
 }
+
 .main {
     background-color: #DDB9A3;
     justify-content: center;
@@ -161,8 +160,18 @@ h1 {
 }
 #nav {
     display: inline-block;
-    text-align: center;
-}
+    align-items: center;
+    }
+
+    .img-header {
+    
+    }
+
+    #marktest {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
 
 #img-fire {
     margin: 0 30%;   
@@ -175,19 +184,22 @@ h1 {
    background-color: #FF764E;
    color: white;
     border: 1px solid #FF764E;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-left: 175px;
 }
 .learn {
     font-size: 1.5rem;
     background-color: #5ED3EB;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-left: 175px;
 }
 .involved {
     font-size: 1.5rem;
     background-color: #FFCD69;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-left: 175px;
 }
 span {
     font-weight: 700;
@@ -195,3 +207,4 @@ span {
 footer {
     background-color: #F9E7DC;
 }
+
