@@ -130,3 +130,17 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+/* my code */
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 5px solid black;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.plan {
+    border: 1px solid red;
+}
