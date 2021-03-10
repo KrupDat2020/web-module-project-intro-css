@@ -1,0 +1,210 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+/* my code */
+
+* {
+    box-sizing: border-box;
+
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Chelsea Market', sans-serif;
+    font-size: 3rem;
+}
+
+.main {
+    background-color: #DDB9A3;
+    justify-content: center;
+    margin: 5% 15%;
+}
+.main-text {
+    text-align: center;
+}
+#nav {
+    display: inline-block;
+    align-items: center;
+    }
+
+    .img-header {
+    
+    }
+
+    #marktest {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+
+#img-fire {
+    margin: 0 30%;   
+}
+#img-camper {
+    margin: 0 30%;
+}
+.plan {
+    font-size: 1.5rem;
+   background-color: #FF764E;
+   color: white;
+    border: 1px solid #FF764E;
+    border-radius: 5px;
+    margin-left: 175px;
+}
+.learn {
+    font-size: 1.5rem;
+    background-color: #5ED3EB;
+    color: white;
+    border-radius: 5px;
+    margin-left: 175px;
+}
+.involved {
+    font-size: 1.5rem;
+    background-color: #FFCD69;
+    color: white;
+    border-radius: 5px;
+    margin-left: 175px;
+}
+span {
+    font-weight: 700;
+}
+footer {
+    background-color: #F9E7DC;
+}
+
